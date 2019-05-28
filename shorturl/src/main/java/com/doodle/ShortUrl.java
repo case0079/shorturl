@@ -96,7 +96,7 @@ public class ShortUrl {
     }
 
     public static String createToken(int i) {
-        if ( i < 0) {
+        if ( i < 0 || i > MAX_I) {
             throw new IllegalArgumentException();
         }
 
@@ -111,7 +111,7 @@ public class ShortUrl {
 
 
     public static String createToken(long i) {
-        if ( i < 0) {
+        if ( i < 0 || i > MAX_L) {
             throw new IllegalArgumentException();
         }
 
