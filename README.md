@@ -1,7 +1,11 @@
 # shorturl
+
 短地址生成类
+
 int 类型支持 1 - 0x3fffffff ，1个数字对应一个5位字符字符串，并且每个都是不同的。
+
 long 类型支持 1 - 0xfffffffffffffffL ，1个数字对应一个10位字符字符串，并且每个都是不同的。
+
 
 
 ohm0W
@@ -203,6 +207,8 @@ wz-P-
 -QJU_
 yyaQS
 -dOT4
+
+
 _pnNBFjV8v
 fqWO_94p1c
 AUBR-2n-w2
