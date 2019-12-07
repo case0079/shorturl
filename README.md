@@ -2,30 +2,111 @@
 
 短地址生成类
 
-int 类型支持 1 - 0x3fffffff ，1个数字对应一个5位字符字符串，并且每个都是不同的。
-
-long 类型支持 1 - 0xfffffffffffffffL ，1个数字对应一个10位字符字符串，并且每个都是不同的。
-
-
-int 1 - 4 ：
-
-ohm0W
-
-k8W3V
-
-hZbqP
-
-90Gtu
+特点:
+1. 数字转成字符串：输入一个数字后输出一个字符串，
+2. 顺序数字得到非顺序字符：顺序输入的数字得到不相似的字符串，如输入1 得到 KsfEzVk，输入2 得到 Kdv1xVH
+3. 永不碰撞：输出的字符串每个都不会与其他数字生成的字符串相同.
 
 
-long 1 - 4 ：
-
-_pnNBFjV8v
-
-fqWO_94p1c
-
-AUBR-2n-w2
-
-gT4Ob9CVLw
+0JFOvZ2
+0cUo520
+0zIThzY
+01IWT9Np
+01fMQsRE
+01yboN0z
+02LQLuA8
+02eYwQNu
+032UwfCR
+03KjiYJl
+03iYtsiK
+040kTTJj
+04Obxb4h
+04gqhoNN
+JW74ft8
+JpFc6uz
+KLfFejP
+KeeT767
+Ks2akD6
+LBbANql
+LhqXdUz
+M0lX4yv
+MFPi41L
+MXdWoVC
+N4daXCh
+NMsUtWI
+NbbD0LP
+Ntp8stv
+00O2AN7
+0JuG4lB
+0gRxTOz
+0zhKfvf
+01fkLIhg
+01z0bqj1
+02LoKk46
+02eUTU4s
+02jlKroJ
+031lZbnV
+03PpMEeh
+03iNaPKw
+04Ozjmw7
+04hMcnlq
+JVua1fD
+JpLBUI6
+K2noVYU
+KM8gQDf
+KZmWJom
+Kt42PDp
+LiJ8Rez
+M0a9yF4
+MFHov4b
+MXZ6xjA
+MmFkcdj
+N4VgVeY
+NMkSbuM
+NbS7ZGI
+Ntlbzdh
+00mvKyJ
+0z5jdgi
+0hKVRzW
+01baaSWv
+01Mtv9al
+02HgiN8M
+022ufGgp
+02xfAKQC
+03P1XKkD
+032F1UDu
+041XDqBT
+03iKGUB9
+04hdWUJA
+04OLtpyv
+Jp7WouK
+JaMJgd3
+K3AOhrb
+Kxe4Fb3
+KZfj5Pf
+LYCNb6W
+LPIReL8
+MJnBBXy
+M0Otmrk
+MqIaVeC
+NNe3YIA
+N4mbq5K
+NyNpOEv
+NbPtC09
+0JVGmMR
+04wdk64
+0zsl1r3
+0hJNro3
+01NHjXJ6
+02LYQuvZ
+023TlDxP
+02xXM7xf
+02UkIHK5
+03KslVAN
+037JcFzv
+041M0QtI
+04loNYCR
+04Ov6g0P
+JoxAlIZ
 
 
